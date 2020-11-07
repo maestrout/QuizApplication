@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "QuizApplication"
+    }
+  },
+  "defaultProject": "QuizApplication",
+  "cli": {
+    "analytics": "aec410c7-27cf-4525-aea4-df905c78eb2d"
+  }
 }
