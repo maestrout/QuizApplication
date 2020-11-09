@@ -1,1 +1,35 @@
-<p>quiz works!</p>
+<h2>Welcome to the Quiz!</h2>
+
+<div *ngIf="progress=='start'">
+  <button (click) = "onStart()">Start The Quiz!</button>
+</div>
+
+
+<div *ngIf="progress=='inProgress'">
+<form>
+  <p>Question {{index + 1}} of {{questions.length - 1}}</p>
+  <p>{{questions[index].question}}</p><br>
+  <input type="radio" id="A" [(ngModel)]="myChoice"  value="{{questions[index].choices[0]}}" name = "choice">
+  <label for="{{questions[index].choices[0]}}">{{questions[index].choices[0]}}</label><br>
+
+  <input type="radio" id="B" [(ngModel)]="myChoice" value="{{questions[index].choices[1]}}" name = "choice">
+  <label for="{{questions[index].choices[1]}}">{{questions[index].choices[1]}}</label><br>
+
+  <input type="radio" id="C" [(ngModel)]="myChoice" value="{{questions[index].choices[2]}}" name = "choice">
+  <label for="{{questions[index].choices[2]}}">{{questions[index].choices[2]}}</label><br>
+
+  <input type="radio" id="D" [(ngModel)]="myChoice" value="{{questions[index].choices[3]}}" name = "choice">
+  <label for="{{questions[index].choices[3]}}">{{questions[index].choices[3]}}</label><br>
+
+  <button (click) = "onAnswer()">Submit</button><br>
+</form>
+</div>
+
+<div *ngIf="progress=='finished'">
+  <p>You got a {{score}} out of {{questions.length - 1}}</p>
+  <button (click) = "onRestart()">Try Again</button><br>
+</div>
+
+
+
+
