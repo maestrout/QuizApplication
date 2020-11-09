@@ -35,7 +35,7 @@ export class QuizComponent implements OnInit {
       this.answers[this.index] = this.myChoice;
       this.index++;
       this.myChoice = "";
-      if(this.index == this.questions.length - 1){
+      if(this.index == this.questions.length){
         this.progress = "finished"
         this.score = 0;
         for(let i = 0; i < this.answers.length; i++){

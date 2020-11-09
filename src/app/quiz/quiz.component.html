@@ -1,14 +1,14 @@
-<h2>Welcome to the Quiz!</h2>
-
-<div *ngIf="progress=='start'">
-  <button (click) = "onStart()">Start The Quiz!</button>
+<div class="jumbotron text-center" *ngIf="progress=='start'">
+  <h2>Welcome to the Quiz!</h2>
+  <p>Let's test your knowledge of computers!</p>
+  <button type="button" class="btn btn-secondary" (click) = "onStart()">Start The Quiz!</button>
 </div>
 
 
-<div *ngIf="progress=='inProgress'">
+<div class="jumbotron text-center" *ngIf="progress=='inProgress'">
 <form>
-  <p>Question {{index + 1}} of {{questions.length - 1}}</p>
-  <p>{{questions[index].question}}</p><br>
+  <p>Question {{index + 1}} of {{questions.length}}</p>
+  <h3>{{questions[index].question}}</h3><br>
   <input type="radio" id="A" [(ngModel)]="myChoice"  value="{{questions[index].choices[0]}}" name = "choice">
   <label for="{{questions[index].choices[0]}}">{{questions[index].choices[0]}}</label><br>
 
@@ -21,13 +21,14 @@
   <input type="radio" id="D" [(ngModel)]="myChoice" value="{{questions[index].choices[3]}}" name = "choice">
   <label for="{{questions[index].choices[3]}}">{{questions[index].choices[3]}}</label><br>
 
-  <button (click) = "onAnswer()">Submit</button><br>
+  <button type="button" class="btn btn-secondary" (click) = "onAnswer()">Submit</button><br>
 </form>
 </div>
 
-<div *ngIf="progress=='finished'">
-  <p>You got a {{score}} out of {{questions.length - 1}}</p>
-  <button (click) = "onRestart()">Try Again</button><br>
+<div class="jumbotron text-center" *ngIf="progress=='finished'">
+  <h2>Quiz Completed!</h2>
+  <p>You got a {{score}} out of {{questions.length}}</p>
+  <button class="btn btn-secondary" (click) = "onRestart()">Try Again</button><br>
 </div>
 
 

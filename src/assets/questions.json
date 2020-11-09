@@ -2,102 +2,93 @@
 "questions":[
     {
       "questionId": 1,
-      "question": "What is 2 + 2?",
-      "choices": ["0",
-                  "27",
-                  "7",
-                  "4"],
-      "correctChoice": "4"
+      "question": "A computer program is a piece of _______?",
+      "choices": ["hardware",
+                  "underwear",
+                  "software",
+                  "hard drive"],
+      "correctChoice": "software"
     },
     {
         "questionId": 2,
-        "question": "What is the color of bananas?",
-        "choices": ["yellow",
-                    "blue",
-                    "orange",
-                    "while"],
-        "correctChoice": "yellow"
-    },
-    {
-        "questionId": 2,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "Devices that are connected to computers, such as printers, scanners and modems, are called what?",
+        "choices": ["peripherals",
+                    "formats",
+                    "apps",
+                    "icons"],
+        "correctChoice": "peripherals"
     },
     {
         "questionId": 3,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "What do we call a specific computer record containing data or a small program?",
+        "choices": ["a keybind",
+                    "an icon",
+                    "a format",
+                    "a file"],
+        "correctChoice": "a file"
     },
     {
         "questionId": 4,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "What do we call the part of a computer that stores programs and information?",
+        "choices": ["the soft disk",
+                    "the hard disk",
+                    "the hotspot",
+                    "the notebook"],
+        "correctChoice": "the hard disk"
     },
     {
         "questionId": 5,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "What do we call a program for exploring the Web and viewing websites?",
+        "choices": ["a driver",
+                    "a passenger",
+                    "a browser",
+                    "a scanner"],
+        "correctChoice": "a browser"
     },
     {
         "questionId": 6,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "To open a particular folder, file or app, you just have to click on its what?",
+        "choices": ["font",
+                    "pixel",
+                    "icon",
+                    "none of the above"],
+        "correctChoice": "icon"
     },
     {
         "questionId": 7,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "RAM, ROM and cache are different types of _______ that computers can use.",
+        "choices": ["fonts",
+                    "Wi-Fi",
+                    "files",
+                    "memory"],
+        "correctChoice": "memory"
     },
     {
         "questionId": 8,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "Which of the following allows wireless data communication?",
+        "choices": ["a USB Flashdrive",
+                    "an ethernet cable",
+                    "a Bluetooth connection",
+                    "an anti-virus app"],
+        "correctChoice": "a Bluetooth connection"
     },
     {
         "questionId": 9,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "What do people go to public hotspots for?",
+        "choices": ["Internet access",
+                    "cable TV",
+                    "software bugs",
+                    "free viruses"],
+        "correctChoice": "Internet access"
     },
     {
         "questionId": 10,
-        "question": "What is 2 + 2?",
-        "choices": ["0",
-                    "27",
-                    "7",
-                    "4"],
-        "correctChoice": "4"
+        "question": "A computer's _______ is called its heart or 'brains' because it's where data is processed.",
+        "choices": ["ROM",
+                    "CPU",
+                    "GPU",
+                    "RAM"],
+        "correctChoice": "CPU"
     }
   ]
 }
